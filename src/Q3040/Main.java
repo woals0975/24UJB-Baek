@@ -19,7 +19,7 @@ public class Main {
 		
 
 		// 합계에서 제외 할 2개의 수를 선정
-		int ai = -1, aj = -1;
+		int ai = -1, aj = -1;  //-1인 이유가 있나? 걍 초기화값인가?
 		for (int i = 0; i < hat.length; i++) {
 			for (int j = 0; j < hat.length; j++) {
 				if (i != j) {
