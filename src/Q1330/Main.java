@@ -20,7 +20,7 @@ public class Main {
 		}else if(b>a) {
 			System.out.println("<");
 		}else if(a==b) {
-			System.out.println("=");
+			System.out.println("==");
 		}
 		
 	}
